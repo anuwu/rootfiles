@@ -9,7 +9,7 @@ SUCCOLOR='\033[1;36m'
 
 if git rev-parse --git-dir > /dev/null 2>&1; then
 	if [ -e git.files ]; then
-		./.gitadd.sh
+		.gitadd
 		printf "${SUCCOLOR}SUCCESS ${RESET}${BOLD} --> ${RESET}Added git files\n"
 	else
 		printf "${ERRCOLOR}ERROR ${RESET}${BOLD}--> ${RESET}git.files not found\n"
