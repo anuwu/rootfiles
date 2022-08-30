@@ -1,2 +1,5 @@
 git.files
+.gitadd.sh
 gitadd.sh
+.gitaddr.sh
+gitaddr.sh
